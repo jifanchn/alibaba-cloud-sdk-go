@@ -78,7 +78,7 @@ type PutCustomMetricRequest struct {
 type PutCustomMetricMetricList struct {
 	Period     string `name:"Period"`
 	GroupId    string `name:"GroupId"`
-	Values     string `name:"Values"`
+	Values     float  `name:"Values"`
 	Time       string `name:"Time"`
 	Type       string `name:"Type"`
 	MetricName string `name:"MetricName"`
