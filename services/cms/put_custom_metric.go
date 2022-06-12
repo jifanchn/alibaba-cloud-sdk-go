@@ -76,13 +76,13 @@ type PutCustomMetricRequest struct {
 
 // PutCustomMetricMetricList is a repeated param struct in PutCustomMetricRequest
 type PutCustomMetricMetricList struct {
-	Period     string `name:"Period"`
-	GroupId    string `name:"GroupId"`
-	Values     float  `name:"Values"`
-	Time       string `name:"Time"`
-	Type       string `name:"Type"`
-	MetricName string `name:"MetricName"`
-	Dimensions string `name:"Dimensions"`
+	Period     string  `name:"Period"`
+	GroupId    string  `name:"GroupId"`
+	Values     float64 `name:"Values"`
+	Time       string  `name:"Time"`
+	Type       string  `name:"Type"`
+	MetricName string  `name:"MetricName"`
+	Dimensions string  `name:"Dimensions"`
 }
 
 // PutCustomMetricResponse is the response struct for api PutCustomMetric
